@@ -71,7 +71,7 @@ class ImageToPdf:
 def main():
     root = tk.Tk()
     root.title("Image to PDF")
-    root.geometry("500x600")
+    root.geometry("600x600")
     converter = ImageToPdf(root)
     root.mainloop()
 
